@@ -1,2 +1,5 @@
-# Secure-Chat-Prototype
-A secure chat prototype enabling 2-party encrypted messaging using Kyber key encapsulation mechanism and Advanced Encryption Standard (AES).
+# AIM PQC Projects
+These projects were developed and designed during the AIM-PQC Internship Program. 
+
+Each folder contains a README and the program.
+
