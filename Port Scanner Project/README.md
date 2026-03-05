@@ -1,10 +1,11 @@
 # Comparing Port Scanners
-This project is designed to develop two types of port scanners and compare the performance of both. Both scanners scan "scanme.org" to test if the scanner operates as intended. 
+This project is designed to develop two types of port scanners and compare the performance of both. 
 
 ## Project Overview
 - Developed an Nmap-based port scanner and service scanner that actively probes ports and applies built-in service detection techniques. 
 - Developed a custom TCP socket-based scanner that performs basic TCP connect scans.
-- Scans for open ports 
+- Both scanners scan "scanme.org" for open ports to test if the scanner operates as intended.
+
 
 
 ## Project Structure and Logic
@@ -32,7 +33,15 @@ Be in the root directory
 ```bash
 git clone https://github.com/hhemen101/AIM-PQC-Projects/tree/main
 ```
-- Make sure Nmap itself is downloaded on host machine. https://nmap.org/download.html 
+- Make sure Nmap itself is downloaded on the host machine. https://nmap.org/download.html 
 ```bash
 pip install python-nmap
 ```
+
+
+## Comments and Key Findings
+- Host target can be modified to scan hostnames, IP addresses, and Network ranges.
+- There were significant performance differences.
+- When scanning nmap.org, four open ports were detected and the Nmap scanner only took 9 seconds while the custom TCP socket-based scanner took 29 seconds to complete the scan.
+- The Nmap scanner is more advanced as it had built-in features the custom TCP socket-based scanner does not have.
+- The socket-based scanner needs an explixt range of ports to scan for open ports, while the Nmap-based scanner does not.
