@@ -73,7 +73,7 @@ Be in the root directory
 git clone https://github.com/hhemen101/AIM-PQC-Projects.git
 ```
 ```bash
-python "AIM-PQC-Projects\Quantum-Resistant Encrypted Chat\Kyber.py"
+python AIM-PQC-Projects\Quantum-Resistant Encrypted Chat\Kyber.py
 ```
 
 ## Key Findings
