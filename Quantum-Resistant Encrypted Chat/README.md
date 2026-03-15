@@ -86,3 +86,7 @@ python AIM-PQC-Projects\Quantum-Resistant Encrypted Chat\Kyber.py
 - Multi-layered defense - if one layer of the PQC implementation is attacked, symmetric encryption still protects the actual data.
 - Allows for a smooth transition to quantum-safe protocols - can easily integrate PQC into symmetric encryption-based systems.
 - Forward Secrecy - ensures past communications remain secure even if encryption keys are compromised in the future.
+
+## Future Work
+- Implementing post-quantum digital signatures like CRYSTALS-Dilithium to verify authentication and prevent man-in-the-middle attacks.
+- Expanding it to support multiple users who can securely exchange messages.
