@@ -1,5 +1,5 @@
 # Quantum-Resistant Encrypted Chat
-This project demonstrates a quantum-resistant messaging prototype using Kyber, a post-quantum key encapsulation mechanism (KEM), combined with symmetric encryption using Advanced Encryption Standard (AES). Two parties (Alice and Bob) securely establish a shared secret to send encrypted messages and decrypt them. The simulation is executed 3 times because it iterates through 3 of the Kyber variants to securely establish a shared key.
+This project demonstrates a quantum-resistant messaging prototype using Kyber, a post-quantum key encapsulation mechanism, combined with symmetric encryption using Advanced Encryption Standard (AES). Two parties (Alice and Bob) securely establish a shared secret to send encrypted messages and decrypt them. The simulation is executed 3 times because it iterates through 3 of the Kyber variants to securely establish a shared key.
 
 
 ## Project Overview
